@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url("image.png");
+}
+
+
+/* ****Nav styling******** */
+nav{
+    padding: 40px;
+    background-color: coral;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+/**Positioning the nav links**/
+.nav-container{
+  position: absolute;
+  right: 0;
+  margin: 0 10px;
+}
+
+/* **nav links styling */
+.nav-container a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.73);
+    font-size: 20px;
+    margin: 0 10px;
+}
+/**Nav links when hovered over**/
+.nav-container a :hover{
+    text-decoration: none;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgba(18, 18, 18, 0.893);
+    padding: 10px; 
+    font-size: 20px;
+}
+/**************************/
