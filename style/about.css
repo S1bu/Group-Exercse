@@ -1,0 +1,46 @@
+/* About Styling Start */
+
+.about{
+    background-color: rgba(18, 18, 18, 0.893);
+    height: 130vh;
+    padding: 10%;
+    color: #fff;
+}
+
+.about__img{
+    width: 50%;
+}
+
+button{
+    width: 30%;
+}
+
+.about__title{
+    font-size: 3rem;
+}
+
+.about__text{
+    width: 40%;
+    margin-top: 2%;
+}
+
+button{
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+}
+
+/* About Styling End */
+
+/* Footer Styling Start */
+
+footer{
+    padding: 6%;
+}
+
+footer > p{
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer Styling End */
