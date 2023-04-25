@@ -9,6 +9,8 @@
 
 .about__img{
     width: 50%;
+    border: 1px solid rgba(18, 18, 18, 0.893);
+    border-radius: 20px;
 }
 
 button{
@@ -25,8 +27,8 @@ button{
 }
 
 button{
-    color: #000;
-    background-color: #fff;
+    color: rgba(18, 18, 18, 0.893);
+    background-color: rgba(255, 255, 255, 0.344);
     padding: 10px;
 }
 
