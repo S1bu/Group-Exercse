@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/******Contact page*************/
+.login{
+    border: 5px solid rgba(18, 18, 18, 0.893);
+    border-radius: 20px;
+    background-color:rgba(255, 255, 255, 0.344);
+    /* text-align: center; */
+    width: 500px;
+    font-size: 20px;
+    height: 500px;
+    /* margin-top: 200px;
+    margin-bottom: 700px; */
+    margin: auto;
+}
+.login form input{
+    border: 1px solid rgba(18, 18, 18, 0.893);
+    border-radius: 10px;
+    padding: 10px;
+    background-color:rgba(255, 255, 255, 0.344) ;
+    text-align: center;
+    color: rgba(18, 18, 18, 0.893);;
+    font-weight: 900;
+}
+.login form label{
+    font-weight:900 ;
+    color:rgba(18, 18, 18, 0.893) ;
+}
+.login form textarea{
+    border: 2px solid rgba(18, 18, 18, 0.893);
+    background-color:rgba(255, 255, 255, 0.344) ;
+    border-radius: 10px;
+}
+.login form{
+    margin-top: 60px;
+}
+.login form button{
+    border: 2px solid rgba(18, 18, 18, 0.893);
+    border-radius: 10px;
+    background-color: rgba(18, 18, 18, 0.893);
+    padding: 10px 20px;
+    font-weight: 900;
+    color: white;
+}
+.login form button:hover{
+    color: rgba(18, 18, 18, 0.893);
+    background-color: rgba(255, 255, 255, 0.344);
+}
+footer{
+    background-color: rgba(18, 18, 18, 0.893);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+}
+footer p{
+    color: white;
+}
